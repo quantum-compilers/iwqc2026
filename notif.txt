@@ -1,0 +1,36 @@
+Dear [*FIRST-NAME*] [*LAST-NAME*],
+
+Congratulations!  Your submission "[*TITLE*]" has been selected to be presented as a TALK at IWQC 2026.  Please find below the reviews and scores for your submission.
+
+Please write to quantum.compilers@gmail.com as soon as possible and indicate which of the authors will come to Toronto to present your work.  You find can local information and the link to register on the website at https://quantum-compilers.github.io/iwqc26/
+
+We look forward to seeing you at the workshop!
+
+Best wishes,
+
+The IWQC Programme Committee.
+
+
+------
+
+Dear [*FIRST-NAME*] [*LAST-NAME*],
+
+Your submission "[*TITLE*]" has been selected to be presented as a POSTER at IWQC 2026.  Please find below the reviews and scores for your submission.
+
+Please write to quantum.compilers@gmail.com as soon as possible and indicate which of the authors will come to Toronto to present the poster.  You find can local information and the link to register on the website at https://quantum-compilers.github.io/iwqc26/
+
+We look forward to seeing you at the workshop!
+
+Best wishes,
+
+The IWQC Programme Committee.
+
+-------
+
+Dear [*FIRST-NAME*] [*LAST-NAME*],
+
+Your submission "[*TITLE*]" has not been selected to be presented IWQC 2026.  Please find below the reviews and scores for your submission.
+
+Best wishes, and better luck next time.
+
+The IWQC Programme Committee.

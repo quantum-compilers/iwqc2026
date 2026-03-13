@@ -1,0 +1,49 @@
+Cfp: International Workshop on Quantum Compilation -- 19-20 September 2026
+
+Call for Papers
+8th International Workshop on Quantum Compilation
+19-20 September 2026,  
+https://quantum-compilers.github.io/iwqc26/
+
+We invite contributions to the 8th International Workshop on Quantum Compilation, which will take place at TBC in Toronto, on the 19th and 20th of September 2026.
+
+Submission of abstracts : ?? July 2026 (anywhere-on-earth)
+Notification of decisions : ?? July 2026
+Registration deadline : ?? August 2026
+Workshop : 19 and 20 September 2026
+
+The workshop aims to bring together researchers from quantum computing, electronic design automation, and compiler construction. Open questions that we anticipate this group to tackle include new methods for circuit synthesis, optimization, and rewriting, techniques for verifying the correctness of quantum programs, and new techniques for compiling efficient circuits and protocols regarding fault-tolerant and architecture constraints.
+
+The main purpose of the workshop is to exchange recent ideas and research in the area of quantum compilation.  Topics of interest for the workshop include:
+
+* Optimizing compilers for quantum software
+* Quantum and reversible circuit peep-holing and (re)synthesis
+* Reversible logic synthesis
+* Technology-aware mapping
+* Fault-tolerant circuit compilation
+* Intermediate representations for quantum software
+* Quantum programming languages
+* Design-space exploration for automatic code generation from classical HDL specification
+* Optimized libraries (e.g., for arithmetic and Hamiltonian simulation)
+* Benchmarking of circuits for small and medium scale quantum computers
+* Software and tools for all above mentioned topics
+* Quantum outreach: coding contests, tutorials, education
+
+The workshop has no formal proceedings. Authors are invited to submit an abstract of 3--5 pages in length. Submission of tool and case-study papers are highly encouraged.  Links to longer documents or source code respositories are permitted, although the referees may or may not refer to them.  In case of a positive evaluation, submissions are accepted either as oral or poster presentation to be part of the workshop programme. All abstracts and papers are distributed only among the participants, but can be shared on the workshop's website with the author's consent.
+
+Accepted submissions should be presented in person in Helsinki — please note the workshop dates! Submissions must point out who will present the contribution if it is selected.
+
+Submission is via EasyChair. Please submit your contribution here:
+https://easychair.org/conferences/?conf=iwqc25
+
+Programme Committee
+---
+Ross Duncan, Quantinuum.
+David Ittah, Xanadu.
+Ali Javadi-Abhari, IBM Quantum.
+Aleks Kissinger, University of Oxford.
+Arianne Meijer-van de Griend, University of Helsinki.
+Alexandru Paler, Aalto University.
+Neil J. Ross, Dalhousie University.
+Raphael Seidel, Fraunhofer FOKUS.
+Benoit Valiron, Université Paris Saclay.
