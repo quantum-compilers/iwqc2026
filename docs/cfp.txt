@@ -3,7 +3,7 @@ Cfp: International Workshop on Quantum Compilation -- 19-20 September 2026
 Call for Papers
 8th International Workshop on Quantum Compilation
 19-20 September 2026,  
-https://quantum-compilers.github.io/iwqc26/
+https://quantum-compilers.github.io/iwqc2026/
 
 We invite contributions to the 8th International Workshop on Quantum Compilation, which will take place at Xanadu in Toronto, on the 19th and 20th of September 2026.
 
