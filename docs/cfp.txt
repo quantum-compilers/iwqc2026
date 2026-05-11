@@ -20,6 +20,7 @@ The main purpose of the workshop is to exchange recent ideas and research in the
 * Compilation methods for fault-tolerant quantum software
 * Optimization and synthesis of quantum and reversible circuits
 * Technology-aware mapping and layout methods
+* Quantum instruction set architecture design
 * Intermediate representations for quantum software
 * Quantum programming languages
 * Automatic code generation from classical HDL specification
