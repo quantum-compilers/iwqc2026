@@ -1,0 +1,34 @@
+Guidance for Reviewers
+---
+
+Our goal as programme committee is to select the most interesting programme of talks for the workshop.  This is a different goal than acting as a PC for a serious conference or for a journal.  Two major criteria for selection are
+
+1.  Is it about compiling quantum software?  This can be construed
+broadly -- see the workshop's stated scope at
+https://quantum-compilers.github.io/iwqc2026/.  However there are things which are clearly on topic and there are things which are more marginal.  For example, quantum programming languages are included in the stated scope, but a contribution about a programming language that does not address its compilation should probably go elsewhere.  There are plenty of elsewheres.  Consider this a tie breaker.
+
+2.  Is it interesting?  Does it advance the state of the art?  We prefer novel ideas -- even rough and unfinished ones -- to the same old stories we heard before.  Work which has been presented in the past should probably not be accepted at IWQC, unless you think it will be very interesting to the attendees.  I would add that mere proposals are not interesting: some evidence of progress should be shown.
+
+These two primary criteria should guide you in the reviewing.  Other points to bear in mind:
+
+* Format:  we require submissions between 3 and 5 pages, excluding references.  Anything shorter than this provides too little for the reviewer to judge the merit of the work, and should be rejected without further consideration.  If the submission exceeds the maximum length, then you should review the first five pages only.  If the authors provide a link to a full paper, you should read it only if you think it will help you decide whether the submission is interesting enough.  A too-short submission with a link to a full paper is an auto-reject.
+
+* Correctness: you are not obliged to check the correctness of the paper; however you should reject anything which is clearly wrong, or if you have cause to doubt the authors' claims.  If you are reviewing a submission of the kind "interestig if true" then try to estimate how likely it is to be true.  It has to be plausibly correct to be interesting.
+
+* Clarity and quality of presentation.  We have no proceedings.  The submission is only there to persuade you of the interestingness of the talk; the document itself may be ignored.  There is no need to point out typos, grammatical errors, etc.  If the authors cannot explain their ideas clearly, their ideas might be ill-formed, or they might be bad at writing (in english).  Do your best to work out which.
+
+* AI-generated submissions.  We have no stated policy on AI.  I personally have no interest in reading AI-generated material, but it's not an auto-reject.  If you think an interesting talk will be the result of accepting the submission then feel free to accept.  However, I would not be interested in anything of the form "we asked ChatGPT and this is what it said".  Apply an appropriate level of skepticism.  
+
+
+Conflicts of Interest
+---
+
+Please declare conflict with a submission if any of the following apply to ANY of the authors of the submission:
+- They work at your current institution.
+- They are a recent coauthor or collaborator.  “Recent" means in the past 5 years.
+- They are a family member.
+- They are a close friend.
+- If for any reason you don't think you would be able to give a fair review.
+
+
+If in doubt, feel free to email the PC.
