@@ -251,6 +251,7 @@ ness of this abstraction through two case studies: First, we show how the model 
 </div>
 
 <!-- record starts -->
+<!-- withdrew
 <div class="article">
   <a link="IWQC_paper_35">
   <span class="authors">
@@ -264,6 +265,45 @@ ness of this abstraction through two case studies: First, we show how the model 
     Modern quantum transpilers chain pipelines of named passes (layout, routing, cancellation, scheduling), yet it is unclear which passes are truly critical and whether this depends on workload. We present PassProbe, which ablates all 2^k pass subsets in a k-pass pipeline and applies Shapley-value attribution to measure each pass's marginal contribution to circuit quality. Across 20 circuits, six workload classes, and four state-of-the-art compilers, we find that just 2-3 passes drive over 80% of quality gains, with the dominant pass shifting predictably by workload; pass ordering effects can exceed selection effects for deep circuits; and 3-5 passes per compiler can be safely pruned, cutting compilation time by up to 22% with <0.5% quality loss.
   </div>
 </div>
+-->
+
+<!-- record starts -->
+<div class="article">
+  <a link="IWQC_paper_36">
+  <span class="authors">
+    Adam Bene Watts, Alexander Cowtan, Christopher Kang, Benjamin Ide and Guillaume Dauphinais.
+  </span><br/>
+  <span class="title">
+     On Compiling Fast Boolean Logic for Fault-Tolerant Architectures
+  </span></br>
+  <div class="abstract">
+    <b>Abstract:</b>Performing coherent Boolean logic on quantum
+computers is critical for many quantum applications in cryptanalysis
+and Hamiltonian simulation. In this work, we study the compilation of
+Boolean logic to fast and space-efficient implementations on
+fault-tolerant quantum computers with fast clock cycles, while using a
+small gateset motivated by recent architectural proposals based on
+high-rate Low-Density Parity Check (LDPC) codes.  First, we give a
+general and formal definition of reaction depth. We then focus on a
+gateset which consists solely of homogeneous Z- and X-type Pauli
+Product Measurements (PPMs), alongside a supply of Toffoli states. We
+prove that, using this gateset, any Boolean arithmetic circuit can be
+implemented on a quantum computer with constant quantum depth and
+constant reaction depth, at the cost of exponential space and a
+potential set of wandering monomial terms on ancilla qubits. As a
+corollary, we find two space- and time-efficient implementations of
+AutoAND gadgets that require only a Toffoli state, homogeneous PPMs
+and fast, single-qubit measurements. We propose a general strategy to
+compile Boolean circuits to homogeneous PPMs, using a windowed
+compilation method which allows the compiler to tune the space,
+circuit depth and reaction depth of Boolean primitives such as adders
+and multipliers.  Overall, our results imply that space and
+time-efficient implementation of Boolean logic is possible with only a
+small set of logical operations, which can be efficiently implemented
+and parallelized on proposed high-rate fault-tolerant architectures.
+  </div>
+</div>
+
 
 <!-- record starts -->
 <div class="article">
@@ -275,20 +315,24 @@ ness of this abstraction through two case studies: First, we show how the model 
      A Quantum Cache model for modular quantum computing architectures
   </span></br>
   <div class="abstract">
-    <b>Abstract:</b>
-    Fault-tolerant quantum computers are increasingly designed as modular machines: qubits live in physical 
-modules—logical patches of a surface code, blocks of a qLDPC code, separate chips—and talking between 
-modules is far more expensive than computing inside one. On such machines the true cost of running a 
-program is rarely its gate count; it is the routing of entanglement between distant qubits. The usual remedy 
-is spatial: keep qubits that interact often close together. 
-We explore an orthogonal, temporal idea borrowed from the memory hierarchy of classical processors. 
-We equip the device with a small, fast cache into which frequently used logical operators are loaded once; 
-afterwards, many non-Clifford rotations can be applied locally inside the cache, without paying the routing 
-cost again and again. The rest of this section makes this picture precise: we recall how a single Pauli rotation 
-is localized onto an ancilla, promote that gadget into a reusable cache abstraction with two primitives— 
-Load and Patch—and describe a simple streaming pass that compiles any program into a sequence of cache 
-instructions.
-
+    <b>Abstract:</b> Fault-tolerant quantum computers are increasingly
+    designed as modular machines: qubits live in physical
+    modules—logical patches of a surface code, blocks of a qLDPC code,
+    separate chips—and talking between modules is far more expensive
+    than computing inside one. On such machines the true cost of
+    running a program is rarely its gate count; it is the routing of
+    entanglement between distant qubits. The usual remedy is spatial:
+    keep qubits that interact often close together.  We explore an
+    orthogonal, temporal idea borrowed from the memory hierarchy of
+    classical processors.  We equip the device with a small, fast
+    cache into which frequently used logical operators are loaded
+    once; afterwards, many non-Clifford rotations can be applied
+    locally inside the cache, without paying the routing cost again
+    and again. The rest of this section makes this picture precise: we
+    recall how a single Pauli rotation is localized onto an ancilla,
+    promote that gadget into a reusable cache abstraction with two
+    primitives— Load and Patch—and describe a simple streaming pass
+    that compiles any program into a sequence of cache instructions.
   </div>
 </div>
 
